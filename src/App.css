@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px/1.5 Inter, sans-serif;
+  color: white;
+}
+
+h1, h2, h3 {
+  line-height: 1;
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 1vw;
+  background: rgba(128, 0, 128, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+nav a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.overlay {
+  padding: 5vw;
+}
+
+.legend {
+  display: flex;
+}
+
+.legend > .column {
+  width: 10vw;
+}
+
+.legend > .column > * {
+  line-height: 3;
+}
+
+.legend > .column > div:before {
+  content: ' ';
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.legend > .column > div > span {
+  color: white;
+}

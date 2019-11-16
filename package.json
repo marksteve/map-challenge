@@ -1,0 +1,38 @@
+{
+  "name": "map-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "color-hash": "^1.0.3",
+    "deck.gl": "^7.3.5",
+    "easy-peasy": "^3.2.3",
+    "lodash": "^4.17.15",
+    "papaparse": "^5.1.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-map-gl": "^5.1.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

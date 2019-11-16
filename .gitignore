@@ -1,5 +1,11 @@
 .ipynb_checkpoints/
 venv/
 
+node_modules/
+
+.firebase/
+
+build/
+
 data/
 output/
